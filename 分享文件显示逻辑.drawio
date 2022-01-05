@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T01:58:08.931Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.1.0" etag="PTX8zoV1Ofvl1PQLypkh" type="github"><diagram id="LvEwQHc5lgmtGtOVlA-q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-05T02:09:27.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mktUi8Q9hEa1n73OA6sG" version="16.1.0" type="github">
+  <diagram id="LvEwQHc5lgmtGtOVlA-q" name="Page-1">
+    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-1" value="被分享用户打开分享模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-4" target="5zX_bcEwDF1RNSuxi5ct-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-7" value="被分享模块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5zX_bcEwDF1RNSuxi5ct-6">
+          <mxGeometry x="-0.241" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-4" target="5zX_bcEwDF1RNSuxi5ct-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-19" value="我的分享" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5zX_bcEwDF1RNSuxi5ct-18">
+          <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-4" value="选择模块" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-5" target="5zX_bcEwDF1RNSuxi5ct-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-5" value="后台根据用户查询rzx_share_to_users" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-8" target="5zX_bcEwDF1RNSuxi5ct-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-8" value="得到share_no编号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-10" target="5zX_bcEwDF1RNSuxi5ct-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-10" value="通过share_no查询,rzx_file_share_link表，得到wjbh和分享人user_no" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-12" value="通过user_no查询user表获取分表号，根据分表号和wjbh查询file表得到对应的文件信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="570" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-16" value="页面显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-17" target="5zX_bcEwDF1RNSuxi5ct-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-17" value="通过user_no查询，rzx_file_share_link" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-20" target="5zX_bcEwDF1RNSuxi5ct-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-20" value="得到share_no编号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-22" value="通过文件编号查询file表得到对应的文件信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zX_bcEwDF1RNSuxi5ct-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zX_bcEwDF1RNSuxi5ct-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="420" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="610" />
+              <mxPoint x="420" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
