@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T06:56:24.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" version="16.5.6" etag="hYinkHm20KFjfqoKDRPT" type="github"><diagram id="Hn0eFpKXFwliU4BVuuCb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-18T08:12:43.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="RwAyurzh2EH0kueXebq3" version="16.5.6" type="github">
+  <diagram id="Hn0eFpKXFwliU4BVuuCb" name="Page-1">
+    <mxGraphModel dx="613" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-1" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-2" target="4ntTOsul2eVmQ6UXNJZA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-2" value="小组清空回收站逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-5" target="4ntTOsul2eVmQ6UXNJZA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-5" value="查询回收站中自己指定所属小组的非文件夹的文件 放到list中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-7" target="4ntTOsul2eVmQ6UXNJZA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-7" value="循环list计算删除文件大小" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-11" target="4ntTOsul2eVmQ6UXNJZA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-11" value="&lt;span&gt;删除自己指定所属小组中的 flag = 2的信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-16" target="4ntTOsul2eVmQ6UXNJZA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-16" value="并把&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;verify 插入到&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;rzx_scavenging（&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128) ; font-style: italic ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;文件检查清理&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;）表中&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="183" y="500" width="234" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-18" target="4ntTOsul2eVmQ6UXNJZA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-18" value="删除文件的大小,磁盘编号,和flag：2（表示删除）等信息插入&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;rzx_squad_details_space（&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(0 , 128 , 0) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt ; font-weight: bold&quot;&gt;组磁盘详情）表中&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="183" y="610" width="234" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-25" target="4ntTOsul2eVmQ6UXNJZA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-28" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ntTOsul2eVmQ6UXNJZA-27">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ntTOsul2eVmQ6UXNJZA-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-32" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ntTOsul2eVmQ6UXNJZA-31">
+          <mxGeometry x="-0.4182" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ntTOsul2eVmQ6UXNJZA-25" value="list中有无数据" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="441" y="410" width="146" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
